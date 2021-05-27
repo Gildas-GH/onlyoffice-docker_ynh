@@ -11,7 +11,7 @@
     "urlDockerHub": "alehoho/oo-ce-docker-license",
     "authorName": "Gildas GH",
     "authorEmail": "gildas.gh@protonmail.ch",
-    "idName": "onlyoffice docker",
+    "idName": "onlyoffice-docker",
     "reverseProxyProtocol": "http",
     "scriptsLoadSave": false
   }
