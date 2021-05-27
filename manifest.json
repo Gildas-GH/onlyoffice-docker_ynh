@@ -1,0 +1,46 @@
+{
+    "name": "OnlyOffice Docker",
+    "id": "onlyoffice docker",
+    "url": "",
+    "packaging_format": 1,
+    "description": {
+        "en": "OnlyOffice Unlocked with Docker",
+        "fr": "OnlyOffice débloqué avec Docker"
+    },
+    "version": "1.0",
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "Gildas GH",
+        "email": "gildas.gh@protonmail.ch"
+    },
+    "requirements": {
+        "yunohost": ">= 2.7.2"
+    },
+    "services": [
+        "nginx"
+     ],
+    "multi_instance": true,
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for OnlyOffice Docker",
+                    "fr": "Choisissez un domaine pour OnlyOffice Docker"
+                },
+                "example": "app.domain.org"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "ask": {
+                    "en": "Choose a path for OnlyOffice Docker",
+                    "fr": "Choisissez un chemin pour OnlyOffice Docker"
+                },
+                "example": "/",
+                "default": "/"
+            }
+        ]
+    }
+}

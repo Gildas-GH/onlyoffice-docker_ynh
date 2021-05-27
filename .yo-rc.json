@@ -1,0 +1,18 @@
+{
+  "generator-dockerapp-yunohost": {
+    "beautifulName": "OnlyOffice Docker",
+    "defaultPathOption": "/",
+    "forceSecureAccess": true,
+    "secureAccessOption": false,
+    "adminUserOption": false,
+    "enDescription": "OnlyOffice Unlocked with Docker",
+    "frDescription": "OnlyOffice débloqué avec Docker",
+    "urlApp": "",
+    "urlDockerHub": "alehoho/oo-ce-docker-license",
+    "authorName": "Gildas GH",
+    "authorEmail": "gildas.gh@protonmail.ch",
+    "idName": "onlyoffice docker",
+    "reverseProxyProtocol": "http",
+    "scriptsLoadSave": false
+  }
+}
