@@ -15,6 +15,7 @@
 docker run \
     --name=$app \
     --detach \
+    --restart unless-stopped \
     --publish=$port:80 \
     alehoho/oo-ce-docker-license 1>&2
 
